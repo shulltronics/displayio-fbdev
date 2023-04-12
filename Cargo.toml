@@ -1,0 +1,14 @@
+[package]
+name = "framebuffer-display"
+version = "0.0.1"
+authors = ["Carsten Thue-Bludworth <carstentb@protonmail.com>"]
+edition = "2021"
+
+[lib]
+name = "framebuffer_display"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3              = { version = "0.18.1", features = ["extension-module"] }
+framebuffer       = "0.3.1"
+embedded-graphics = "0.7.1"
