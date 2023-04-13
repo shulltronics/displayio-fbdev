@@ -10,7 +10,7 @@ print("width: {}".format(display.width))
 print("height: {}".format(display.height))
 
 # Create a bitmap with two colors
-bitmap = displayio.Bitmap(display.width, display.height, 2)
+bitmap = displayio.Bitmap(display.width, display.height, 5)
 
 # Create a two color palette
 palette = displayio.Palette(5)
